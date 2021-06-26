@@ -15,7 +15,7 @@ public class Mailer {
 public static void send(String to,String subject,String msg){  
   
 final String user="anumari.annapoorna@gmail.com";  
-final String pass="Annu1234@gmail";  
+final String pass="xxxxx@gmail";  
 
 Properties props = new Properties();  
 props.put("mail.smtp.auth", "true");  
