@@ -10,7 +10,7 @@ class SampleMail{
   
   String to="anumari.annapoorna@gmail.com";//change accordingly  
   final String user="anumari.annapoorna@gmail.com";//change accordingly  
-  final String password="annu1234@gmail";//change accordingly  
+  final String password="xxxxxxxxxx";//change accordingly  
    
   //1) get the session object     
   Properties properties = System.getProperties();  
