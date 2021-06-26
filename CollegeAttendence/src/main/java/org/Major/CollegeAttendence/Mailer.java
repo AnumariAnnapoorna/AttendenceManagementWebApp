@@ -14,7 +14,7 @@ import javax.mail.internet.MimeMultipart;
 public class Mailer {  
 public static void send(String to,String subject,String msg){  
   
-final String user="anumari.annapoorna@gmail.com";  
+final String user="xxxx";  
 final String pass="xxxxxxxx";  
 
 Properties props = new Properties();  
