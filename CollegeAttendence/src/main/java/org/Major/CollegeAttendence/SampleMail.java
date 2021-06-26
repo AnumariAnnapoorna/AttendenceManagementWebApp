@@ -8,7 +8,7 @@ import javax.activation.*;
 class SampleMail{  
  public static void main(String [] args){  
   
-  String to="anumari.annapoorna@gmail.com";//change accordingly  
+  String to="xxxxx@gmail.com";//change accordingly  
   final String user="anumari.annapoorna@gmail.com";//change accordingly  
   final String password="xxxxxxxxxx";//change accordingly  
    
