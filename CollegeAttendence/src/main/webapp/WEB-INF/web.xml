@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.4" xmlns="http://java.sun.com/xml/ns/j2ee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee http://java.sun.com/xml/ns/j2ee/web-app_2_4.xsd">
+    <display-name>CollegeAttendence</display-name>
+    <servlet>
+    	<description>
+    	</description>
+    	<display-name>ValidateAdmin</display-name>
+    	<servlet-name>ValidateAdmin</servlet-name>
+    	<servlet-class>org.Major.CollegeAttendence.ValidateAdmin</servlet-class>
+    </servlet>
+    <servlet>
+    	<description>
+    	</description>
+    	<display-name>SendMail</display-name>
+    	<servlet-name>SendMail</servlet-name>
+    	<servlet-class>org.Major.CollegeAttendence.SendMail</servlet-class>
+    </servlet>
+    <servlet>
+    	<description>
+    	</description>
+    	<display-name>Mailer</display-name>
+    	<servlet-name>Mailer</servlet-name>
+    	<servlet-class>org.Major.CollegeAttendence.Mailer</servlet-class>
+    </servlet>
+   
+    <servlet-mapping>
+    	<servlet-name>ValidateAdmin</servlet-name>
+    	<url-pattern>/ValidateAdmin</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+    	<servlet-name>SendMail</servlet-name>
+    	<url-pattern>/SendMail</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+    	<servlet-name>Mailer</servlet-name>
+    	<url-pattern>/Mailer</url-pattern>
+    </servlet-mapping>
+    
+    <session-config>
+        <session-timeout>
+            30
+        </session-timeout>
+    </session-config>
+    <welcome-file-list>
+        <welcome-file>Login.jsp</welcome-file>
+        </welcome-file-list>
+    </web-app>
